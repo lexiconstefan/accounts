@@ -1,5 +1,0 @@
-C:\Users\Ferm\documents\visual studio 2015\Projects\Accounts\Accounts.Entities\bin\Debug\Accounts.Entities.dll
-C:\Users\Ferm\documents\visual studio 2015\Projects\Accounts\Accounts.Entities\bin\Debug\Accounts.Entities.pdb
-C:\Users\Ferm\documents\visual studio 2015\Projects\Accounts\Accounts.Entities\obj\Debug\Accounts.Entities.csprojResolveAssemblyReference.cache
-C:\Users\Ferm\documents\visual studio 2015\Projects\Accounts\Accounts.Entities\obj\Debug\Accounts.Entities.dll
-C:\Users\Ferm\documents\visual studio 2015\Projects\Accounts\Accounts.Entities\obj\Debug\Accounts.Entities.pdb
