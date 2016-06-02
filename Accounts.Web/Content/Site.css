@@ -1,12 +1,23 @@
-﻿body {
-    padding-top: 50px;
-    padding-bottom: 20px;
+﻿html{
+    font-size:16px;
 }
-
+body {
+    font-size:68.5%;
+    font-family:Georgia,serif;
+    padding-top: 5em;
+    padding-bottom: 2em;
+}
+h2{
+    font-size:2em;
+}
+h4{
+    font-size:1.12em;
+    
+}
 /* Set padding to keep content from hitting the edges */
 .body-content {
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
 }
 
 /* Override the default bootstrap behavior where horizontal description lists 
@@ -21,4 +32,26 @@ input,
 select,
 textarea {
     max-width: 280px;
+}
+
+
+/*My own*/
+.floatRight {
+    float: right;
+    margin-right: 1.8em;
+}
+
+.formcontainer {
+    background-color: #DAE8E8;
+}
+
+@media screen and (min-width: 768px) {
+    .generic-container {
+       
+        padding: 20px;
+        background-color: #EAE7E7;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        box-shadow: 0 0 1px black;
+    }
 }

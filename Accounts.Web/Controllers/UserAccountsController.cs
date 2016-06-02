@@ -11,7 +11,7 @@ using UserAccounts.Entities;
 
 namespace Accounts.Web.Controllers
 {
-    [Authorize]
+   // [Authorize]
     public class UserAccountsController : Controller
     {
         private UserAccountsDb db = new UserAccountsDb();
