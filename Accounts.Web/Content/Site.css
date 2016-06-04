@@ -16,8 +16,8 @@ h4{
 }
 /* Set padding to keep content from hitting the edges */
 .body-content {
-    padding-left: 1.5em;
-    padding-right: 1.5em;
+    padding-left: 1.5120967741935484%;
+    padding-right: 1.5120967741935484%;
 }
 
 /* Override the default bootstrap behavior where horizontal description lists 
@@ -36,13 +36,14 @@ textarea {
 
 
 /*My own*/
-.floatRight {
-    float: right;
-    margin-right: 1.8em;
+.margin-top{
+    margin-top:5px;
 }
+
 
 .formcontainer {
     background-color: #DAE8E8;
+    padding:2.0161290322580645%;
 }
 
 @media screen and (min-width: 768px) {
