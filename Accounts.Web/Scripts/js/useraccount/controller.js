@@ -1,8 +1,5 @@
 ﻿var userController = {
-<<<<<<< HEAD
 
-=======
->>>>>>> 1b1d5ce63f9a45138fd9a7e1d5a3ea8a14f28087
     getUserAccountList: function () {
         alert('hello');
         var jsonData = {municipality:'bromölla'};

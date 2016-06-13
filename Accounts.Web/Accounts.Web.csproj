@@ -1031,10 +1031,7 @@
     <Content Include="Scripts\jquery.validate.unobtrusive.js" />
     <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
     <Content Include="Scripts\js\useraccount\controller.js" />
-<<<<<<< HEAD
     <Content Include="Scripts\js\useraccount\editkontakt.js" />
-=======
->>>>>>> 1b1d5ce63f9a45138fd9a7e1d5a3ea8a14f28087
     <Content Include="Scripts\modernizr-2.6.2.js" />
     <Content Include="Scripts\respond.js" />
     <Content Include="Scripts\respond.min.js" />
