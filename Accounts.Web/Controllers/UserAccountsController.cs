@@ -8,10 +8,11 @@ using System.Web;
 using System.Web.Mvc;
 using Accounts.Web.DataContexts;
 using UserAccounts.Entities;
+using Newtonsoft.Json.Linq;
 
 namespace Accounts.Web.Controllers
 {
-   // [Authorize]
+  //  [Authorize(Roles = "Administrator")]
     public class UserAccountsController : Controller
     {
         private UserAccountsDb db = new UserAccountsDb();
@@ -22,7 +23,22 @@ namespace Accounts.Web.Controllers
             var userAccounts = db.UserAccounts.Include(u => u.account).Include(u => u.department);
             return View(userAccounts.ToList());
         }
+        [HttpPost]
+        [ValidateInput(false)]
+        public ActionResult QueryIndex(string json)
+        {
+            //JObject obj = JObject.FromObject(json);
+           // //string searchStringKommun = (string)obj["municipality"];
+            //string searchStringDepartment = (string)obj["department"];
+           // string searchStringAccount = (string)obj["account"];
+            var userAccounts = db.UserAccounts.Include(u => u.account).Include(u => u.department).Where(u => u.DepartmentId == 1);
+            //userAccounts.d
 
+         
+        
+           
+            return View(userAccounts.ToList());
+        }
         // GET: UserAccounts/Details/5
         public ActionResult Details(int? id)
         {
