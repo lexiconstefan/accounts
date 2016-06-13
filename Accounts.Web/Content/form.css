@@ -12,8 +12,13 @@ hr{
     
 }
 
+<<<<<<< HEAD
 .padding-tb-1_3{
      padding:1.3020833333333334% 0;
+=======
+.padding1_3{
+     padding:1.3020833333333334%;
+>>>>>>> 1b1d5ce63f9a45138fd9a7e1d5a3ea8a14f28087
 }
 .generic-container {
        
